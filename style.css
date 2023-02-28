@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 253, 239);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#foto{
+    background-color: rgba(235, 255, 168, 0.101);
+}
+
+#foto__img{
+    height: 100px;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    
+
+}
+
+header{
+    display: flex;
+    background-color: rgb(254, 242, 190) !important;
+    
+}
+.barra{
+    display: flex;
+    left: 800px;
+    
+    height: 100%;
+    top: 20px;
+    padding-top: 22px;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+    
+    
+    
+    
+}
+
+
+
+
+.barra__ul{
+    display:flex;
+
+    position: absolute;
+    height: 100%;
+    top:0%;
+    z-index: 0;
+
+    
+    border-radius: 20px;
+    
+
+    
+    
+}
+
+.barra__a{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 50px;
+}
+    
+.barra__a::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.barra__a:hover:after{
+    width: 100%;
+}
+.barra__a::after{
+    colo
+}
+
+
+.barra__ul-li{
+    
+    
+    
+
+    
+}
+
+#titulo{
+   
+    
+    
+
+}
+
+.perfil{
+    text-align: center;
+    color: rgb(77, 77, 77);
+    opacity: 0;
+    animation-name: aparicion;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+#perfil__h2{
+    font-size: 200px;
+    margin-bottom: 70px;
+}
+
+.perfil__h2{
+    color:darkslategrey;
+
+}
+
+
+.educacion{
+    position:absolute;
+    right: 0;
+    top: 800px;
+    right: 50px;
+}
+
+#experiencia{
+    position: absolute;
+    left: 50px;
+
+}
+
+footer{
+    position:relative;
+    background-color: darkgrey;
+    margin-top: 300px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+#copyright{
+    
+    margin-top: 1800px;
+}
+
+
+@keyframes aparicion{
+    0%{
+        opacity: 0;
+        transform: scale(2) translateY(25px);
+    }
+    100%
+    {opacity: 1;
+        transform: scale(1); translateY(0)
+
+    }
+}
